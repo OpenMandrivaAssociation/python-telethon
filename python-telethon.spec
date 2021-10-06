@@ -1,6 +1,6 @@
 %define module Telethon
 
-Name:           python-%{module}
+Name:           python-telethon
 Version:        1.23.0
 Release:        1
 Summary:        Full-featured Telegram client library for Python 3
