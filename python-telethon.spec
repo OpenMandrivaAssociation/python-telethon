@@ -20,11 +20,7 @@ Requires: python3dist(pyaes)
 Requires: python3dist(rsa)
 
 %description
- Telethon is an asyncio Python 3 MTProto library to interact with Telegram's API as a user or through a bot account (bot API alternative).
-
-%files
-
-%{python_sitelib}/%{module}*
+Telethon is an asyncio Python 3 MTProto library to interact with Telegram's API as a user or through a bot account (bot API alternative).
 
 #--------------------------------------------------------------------
 
@@ -40,3 +36,7 @@ rm -rf *.egg-info/
 
 %install
 %py_install
+
+%files
+%{python_sitelib}/%{module}*
+%{python_sitelib}/telethon
