@@ -2,7 +2,7 @@
 
 Name:           python-telethon
 Version:        1.23.0
-Release:        2
+Release:        3
 Summary:        Full-featured Telegram client library for Python 3
 License:        MIT
 Group:          Development/Python
